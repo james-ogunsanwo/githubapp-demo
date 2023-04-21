@@ -1,0 +1,16 @@
+policy:
+  approval:
+  - default 
+  - updating test folder
+
+approval_rules:
+- name: default
+- name: updating test folder
+  if:
+    only_changed_files:
+      paths:
+        - "demo/test.txt"
+        - "demo-two/test.txt"
+  requires:
+    count: 1
+    users: ["approveman"]

@@ -1,0 +1,9 @@
+ownership_rules:
+  allow_dot_github: true
+  global_blacklisted_users: []
+  global_allowed_users: []
+  directory_matching_rules:
+    - name: "Approve all files updates done in demo"
+      path: "demo/**"
+    - name: "Approve all files updates done in demo-two"
+      path: "demo-two/**"
