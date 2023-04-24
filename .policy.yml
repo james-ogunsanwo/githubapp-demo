@@ -1,8 +1,10 @@
 policy:
   approval:
+  - defualt
   - updating test folder
 
 approval_rules:
+- defualt
 - name: updating test folder
   if:
     only_changed_files:
