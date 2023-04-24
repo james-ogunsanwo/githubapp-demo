@@ -4,7 +4,7 @@ policy:
   - updating test folder
 
 approval_rules:
-- defualt
+- name: defualt
 - name: updating test folder
   if:
     only_changed_files:
